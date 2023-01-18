@@ -978,7 +978,6 @@ GameObject:
   - component: {fileID: 1979968434}
   - component: {fileID: 1979968433}
   - component: {fileID: 1979968437}
-  - component: {fileID: 1979968438}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -1075,19 +1074,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rendererToDisable: {fileID: 2123556611}
---- !u!114 &1979968438
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1979968432}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bebd834ac5c90914b84adc9b3528698b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToEnable: {fileID: 1979968432}
 --- !u!137 &2123556611 stripped
 SkinnedMeshRenderer:
   m_CorrespondingSourceObject: {fileID: 5597113867290821413, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
